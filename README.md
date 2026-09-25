@@ -4,7 +4,8 @@
 ## задание 1
 
 вывод имени и возраста через год (возраст + 1)
-![Uploading ex01.jpg…]()
+<img width="442" height="58" alt="0101" src="https://github.com/user-attachments/assets/82023b9c-c8f7-490f-acbb-71eba5655546" />
+
 
 ## задание 2
 
