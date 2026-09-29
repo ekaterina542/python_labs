@@ -1,7 +1,7 @@
-n = int(input())
+n = int(input('in_1:'))
 lst = []
 for i in range(n):
-    a = input()
+    a = input(f'in_{i + 2}:')
     i, f, v, form = a.split()
     lst.append(form)
 
