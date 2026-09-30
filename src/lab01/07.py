@@ -23,5 +23,5 @@ for n in range(ind1, len(st), shag):
         s += '.'
         break
 
-print(s)
+print(f"out: {s}")
 

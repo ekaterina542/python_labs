@@ -11,4 +11,4 @@ for x in lst:
     if x == 'True': o += 1
     else: zo += 1
     
-print(o, zo)
+print(f"out: {o} {zo}")

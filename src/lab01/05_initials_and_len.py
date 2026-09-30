@@ -6,5 +6,5 @@ for x in st:
     lst.append(x[0])
     cnt += len(x)
 print(f"Инициалы: {''.join(lst)}.")
-print(cnt + 2)
+print(f"Длина (символов): {cnt + 2}.")
 
