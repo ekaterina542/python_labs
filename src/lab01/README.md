@@ -1,11 +1,9 @@
 
-# ЛР 1
+# Лабораторная работа 1
 
 ## задание 1
 
 вывод имени и возраста через год (возраст + 1)
-
-<img width="510" height="83" alt="Снимок экрана — 2026-09-17 в 7 31 58 PM" src="https://github.com/user-attachments/assets/98186fe6-93d1-4009-957b-1d0b6e2752ee" />
 
 <img width="442" height="58" alt="0101" src="https://github.com/user-attachments/assets/82023b9c-c8f7-490f-acbb-71eba5655546" />
 ## задание 2
