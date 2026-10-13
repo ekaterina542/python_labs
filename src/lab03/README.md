@@ -22,7 +22,7 @@
 
 <img width="597" height="151" alt="Снимок экрана — 2026-10-13 в 2 23 18 PM" src="https://github.com/user-attachments/assets/f4e8ae25-041c-4eb7-a7d8-4419acf810b8" />
 
-пример работы программы на данных тест-кейсах:
+### пример работы программы на данных тест-кейсах:
 
 <img width="544" height="578" alt="Снимок экрана — 2026-10-13 в 12 19 35 PM" src="https://github.com/user-attachments/assets/0061dfae-d409-4819-9921-e6a0ec0f1e22" />
 
