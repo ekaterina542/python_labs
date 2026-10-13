@@ -4,8 +4,6 @@ def format_record(rec):
     if not isinstance(rec, tuple) or len(rec) != 3:
         return "неверный ввод: ожидается кортеж из 3 элементов"
 
-
-
     fio = rec[0].strip()
     group = rec[1].strip()
     gpa = rec[2]
@@ -31,7 +29,7 @@ def format_record(rec):
     for name in fio_parts[1:]:
         initials += name[0].upper() + "."
 
-    fio_result = surname = fio_parts[0][0].upper() + fio_parts[0][1:].lower() + " " + initials
+    fio_result = fio_parts[0][0].upper() + fio_parts[0][1:].lower() + " " + initials
 
     return f"{fio_result}, гр. {group}, GPA {gpa:.2f}"
 

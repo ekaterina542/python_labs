@@ -1,47 +1,47 @@
-# # 1
-# def transpose(mat):
-#     if mat == []:
-#         return []
+# 1
+def transpose(mat):
+    if mat == []:
+        return []
     
-#     k = len(mat[0])
-#     for x in mat:
-#         if len(x) != k:
-#             return 'ValueError'
+    k = len(mat[0])
+    for x in mat:
+        if len(x) != k:
+            return 'ValueError'
 
-#     res = []
-#     for i in range(k):
-#         r = []
-#         for j in range(len(mat)):
-#             r.append(mat[j][i])
-#         res.append(r)
-#     return res
+    res = []
+    for i in range(k):
+        r = []
+        for j in range(len(mat)):
+            r.append(mat[j][i])
+        res.append(r)
+    return res
 
-# print(transpose([[1, 2, 3]]))
-# print(transpose([[1], [2], [3]]))
-# print(transpose([[1, 2], [3, 4]]))
-# print(transpose([]))
-# print(transpose([[1, 2], [3]]))
+print(transpose([[1, 2, 3]]))
+print(transpose([[1], [2], [3]]))
+print(transpose([[1, 2], [3, 4]]))
+print(transpose([]))
+print(transpose([[1, 2], [3]]))
 
 
-# # 2
-# def row_sums(mat):
-#     if mat == []:
-#         return []
+# 2
+def row_sums(mat):
+    if mat == []:
+        return []
     
-#     k = len(mat[0])
-#     for x in mat:
-#         if len(x) != k:
-#             return 'ValueError'
+    k = len(mat[0])
+    for x in mat:
+        if len(x) != k:
+            return 'ValueError'
 
-#     res = []
-#     for x in mat:
-#         res.append(sum(x))
-#     return res
+    res = []
+    for x in mat:
+        res.append(sum(x))
+    return res
 
-# print(row_sums([[1, 2, 3], [4, 5, 6]]))
-# print(row_sums([[-1, 1], [10, -10]]))
-# print(row_sums([[0, 0], [0, 0]]))
-# print(row_sums([[1, 2], [3]]))
+print(row_sums([[1, 2, 3], [4, 5, 6]]))
+print(row_sums([[-1, 1], [10, -10]]))
+print(row_sums([[0, 0], [0, 0]]))
+print(row_sums([[1, 2], [3]]))
 
 # 3
 def col_sums(mat):
