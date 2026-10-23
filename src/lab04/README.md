@@ -38,5 +38,5 @@
 запуск выполняется из корня репозитория с помощью флага `-m`:
 
 ```python
-python -m src.lab04.text_report
+python3 -m src.lab04.text_report
 ```
