@@ -15,6 +15,28 @@
 
 <img width="760" height="771" alt="Снимок экрана — 2026-10-22 в 8 16 23 PM" src="https://github.com/user-attachments/assets/cff9fb01-c10d-4d53-a27f-0ebf1a16f9cc" />
 
-### csv файл
+## csv файл report.csv и выводы/краевые случаи
+
+### файл input.txt -> Привет, мир! Привет!!!
 
 <img width="225" height="84" alt="Снимок экрана — 2026-10-22 в 8 16 33 PM" src="https://github.com/user-attachments/assets/f8dbd251-522f-4625-afcd-acc85c1c29db" />
+
+### пустой файл input.txt
+
+<img width="539" height="58" alt="Снимок экрана — 2026-10-23 в 2 17 17 PM" src="https://github.com/user-attachments/assets/343b8b16-f4fb-43f0-8798-8de793638e16" />
+
+<img width="229" height="69" alt="Снимок экрана — 2026-10-23 в 2 53 29 PM" src="https://github.com/user-attachments/assets/be365cae-37ad-4d64-a393-22abbf79aa00" />
+
+### файл input.txt -> ������ (кодировка кодировка cp1251)
+
+<img width="223" height="65" alt="Снимок экрана — 2026-10-23 в 2 55 14 PM" src="https://github.com/user-attachments/assets/9aeb7b55-c5f9-47f8-b223-1dc3005d9fc0" />
+
+<img width="544" height="54" alt="Снимок экрана — 2026-10-23 в 2 22 24 PM" src="https://github.com/user-attachments/assets/7d020a09-515c-4b06-a901-fc941f444d32" />
+
+## запуск кода
+
+запуск выполняется из корня репозитория с помощью флага `-m`:
+
+```python
+python -m src.lab04.text_report
+```
