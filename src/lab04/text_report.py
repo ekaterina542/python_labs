@@ -5,12 +5,12 @@ from src.lab04.io_txt_csv import read_text, write_csv
 def main() -> None:
     """Создаёт отчёт с частотами слов из текстового файла."""
     try:
-        raw_text = read_text("data/lab04/input.txt", encoding="utf-8")
+        raw = read_text("data/lab04/input.txt", encoding="utf-8")
     except FileNotFoundError:
         print("Файл не найден: data/lab04/input.txt")
         return
 
-    tokens = tokenize(normalize(raw_text))
+    tokens = tokenize(normalize(raw))
     freq = count_freq(tokens)
     total_words = len(tokens)
     unique_words = len(freq)
