@@ -84,3 +84,17 @@ David,28,Magadan
 
 <img width="529" height="287" alt="таблица аут" src="https://github.com/user-attachments/assets/6b8a3031-d70a-4105-9328-db22dc4bf0c3" />
 
+## Обработка ошибок расширений выходных файлов
+
+<img width="732" height="421" alt="Снимок экрана — 2026-10-27 в 5 33 41 PM" src="https://github.com/user-attachments/assets/2893bf2e-395e-434e-ad9a-1e0a6fc4713e" />
+
+## Запуск с помощью скрипта out.py из корня проекта через python3 -m src.lab05.out
+
+```python
+from src.lab05.json_csv import json_to_csv, csv_to_json
+from src.lab05.csv_xlsx import csv_to_xlsx
+
+json_to_csv("data/lab05/samples/people.json", "data/lab05/out/people_from_json.csv")
+csv_to_json("data/lab05/samples/people.csv", "data/lab05/out/people_from_csv.json")
+csv_to_xlsx("data/lab05/samples/people.csv", "data/lab05/out/people.xlsx")
+```
