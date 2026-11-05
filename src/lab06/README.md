@@ -28,5 +28,38 @@
 
 <img width="513" height="596" alt="image" src="https://github.com/user-attachments/assets/311d8238-3704-4aa3-87cf-36bee8450ee1" />
 
-## запуск программы и обработка ошибок
+## запуск программы
+
+<img width="988" height="263" alt="Снимок экрана — 2026-11-05 в 9 47 32 PM" src="https://github.com/user-attachments/assets/63a2789b-8af4-4049-ae55-60537cd642ff" />
+
+## вывод справки --help
+для cli_text.py
+
+<img width="612" height="314" alt="Снимок экрана — 2026-11-05 в 9 49 36 PM" src="https://github.com/user-attachments/assets/92958e7d-2380-4640-a112-a8ce72ae371a" />
+
+для cli_convert.py
+
+<img width="676" height="372" alt="Снимок экрана — 2026-11-05 в 9 50 41 PM" src="https://github.com/user-attachments/assets/ed053e4d-3bf1-4de4-ab99-3efbad4c5781" />
+
+
+## обработка ошибок
+
+### проверка отсутствующего файла
+
+для cli_text.py
+
+<img width="679" height="240" alt="Снимок экрана — 2026-11-05 в 10 02 01 PM" src="https://github.com/user-attachments/assets/124bb719-b361-4b10-a1cb-23a6e5bbb6fb" />
+
+для cli_convert.py
+
+<img width="872" height="359" alt="Снимок экрана — 2026-11-05 в 10 07 09 PM" src="https://github.com/user-attachments/assets/68d117c1-ef7f-40e6-ae57-f321e3027bac" />
+
+### проверка неправильных аргументов
+
+<img width="771" height="145" alt="Снимок экрана — 2026-11-05 в 10 10 17 PM" src="https://github.com/user-attachments/assets/1de80b5c-b85f-4b3c-bad6-6e1b3fbfa23e" />
+
+### проверка несуществующей подкоманды
+
+<img width="711" height="74" alt="Снимок экрана — 2026-11-05 в 10 11 10 PM" src="https://github.com/user-attachments/assets/96ddaded-a31a-4703-834e-d2b137fb7347" />
+
 
