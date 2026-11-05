@@ -20,6 +20,9 @@ def main():
     stats_parser.add_argument("--top", type=int, default=5)
 
     args = parser.parse_args()
+    if not Path(args.input).exists():
+        raise FileNotFoundError(f"Файл {args.input} не найден")
+        return
 
     if args.command == "cat":
         path = Path(args.input)
