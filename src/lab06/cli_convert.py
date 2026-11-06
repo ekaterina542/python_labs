@@ -21,9 +21,9 @@ def main():
     p3.add_argument("--out", dest="output", required=True)
 
     args = parser.parse_args()
+    
     if not Path(args.input).exists():
         raise FileNotFoundError(f"Файл {args.input} не найден")
-        return
 
     if args.cmd == "json2csv":
         json_to_csv(args.input, args.output)
