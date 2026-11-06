@@ -1,4 +1,3 @@
-
 import argparse
 from pathlib import Path
 
@@ -22,7 +21,6 @@ def main():
     args = parser.parse_args()
     if not Path(args.input).exists():
         raise FileNotFoundError(f"Файл {args.input} не найден")
-        return
 
     if args.command == "cat":
         path = Path(args.input)
